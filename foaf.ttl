@@ -17,6 +17,7 @@
   foaf:family_name "Trajanoska" ;
   foaf:nick "Mimi" ;
   foaf:depiction <https://raw.githubusercontent.com/MilenaTrajanoska/foaf_me/main/img/profile_picture_full.jpg> ;
+  foaf:account <https://www.linkedin.com/in/milena-trajanoska-9612431a7/> ;
   foaf:mbox_sha1sum "7d299bc923aaaa0716de4b5c149a01c334b3ed4f" ;
   foaf:workplaceHomepage <https://www.loka.com/> ;
   foaf:workInfoHomepage <https://www.techtarget.com/searchenterpriseai/definition/machine-learning-engineer-ML-engineer> ;
