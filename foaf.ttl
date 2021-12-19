@@ -1,1 +1,38 @@
-.
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns0: <http://webns.net/mvcb/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<https://raw.githubusercontent.com/MilenaTrajanoska/foaf_me/main/foaf.ttl>
+  a foaf:PersonalProfileDocument ;
+  foaf:maker <https://raw.githubusercontent.com/MilenaTrajanoska/foaf_me/main/foaf.ttl#me> ;
+  foaf:primaryTopic <https://raw.githubusercontent.com/MilenaTrajanoska/foaf_me/main/foaf.ttl#me> ;
+  ns0:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+  ns0:errorReportsTo <mailto:leigh@ldodds.com> .
+
+<https://raw.githubusercontent.com/MilenaTrajanoska/foaf_me/main/foaf.ttl#me>
+  a foaf:Person ;
+  foaf:name "Milena Trajanoska" ;
+  foaf:title "Mrs" ;
+  foaf:givenname "Milena" ;
+  foaf:family_name "Trajanoska" ;
+  foaf:nick "Mimi" ;
+  foaf:mbox_sha1sum "7d299bc923aaaa0716de4b5c149a01c334b3ed4f" ;
+  foaf:workplaceHomepage <https://www.loka.com/> ;
+  foaf:workInfoHomepage <https://www.techtarget.com/searchenterpriseai/definition/machine-learning-engineer-ML-engineer> ;
+  foaf:schoolHomepage <https://finki.ukim.mk/> ;
+  foaf:knows [
+    a foaf:Person ;
+    foaf:name "Pavel Andonovic" ;
+    foaf:mbox_sha1sum "31f59392b746843da68c4068695b9e47bd8ab107" ;
+    rdfs:seeAlso <https://raw.githubusercontent.com/PavelAndonovic/foaf/main/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Milos Jovanovikj" ;
+    foaf:mbox_sha1sum "107f0780a6707f42cd7a3eacbc6af81d1ff4bac0" ;
+    rdfs:seeAlso <http://mjovanovikj.com/foaf.ttl>
+  ], [
+    a foaf:Person ;
+    foaf:name "Veronika Stefanovska" ;
+    foaf:mbox_sha1sum "9a70fc04211c2b674b1733b846ab782e68b2fe6a" ;
+    rdfs:seeAlso <https://www.dropbox.com/s/2iepas06yzok58m/foaf.ttl?dl=1>
+  ] .
