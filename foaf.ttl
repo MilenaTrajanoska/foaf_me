@@ -12,7 +12,7 @@
 <https://raw.githubusercontent.com/MilenaTrajanoska/foaf_me/main/foaf.ttl#me>
   a foaf:Person ;
   foaf:name "Milena Trajanoska" ;
-  foaf:title "Mrs" ;
+  foaf:title "Miss" ;
   foaf:givenname "Milena" ;
   foaf:family_name "Trajanoska" ;
   foaf:nick "Mimi" ;
